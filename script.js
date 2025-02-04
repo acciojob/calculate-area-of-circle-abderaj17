@@ -3,8 +3,8 @@
             let radius =  prompt("Enter the radius of the circle:");
             // write you code here and display the result to the user
 	 const area = (Math.PI * radius ** 2).toFixed(2);
-	 alert(area);
-           
+	 alert(`The area of the circle with radius ${radius} is ${area}`);
+            
 }
 calculateArea();
  
